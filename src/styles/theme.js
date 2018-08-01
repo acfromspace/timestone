@@ -3,13 +3,14 @@ import Color from "color";
 import colors from "./colors";
 
 const theme = createMuiTheme({
+  // Base foundation of the whole webpage
   base: {
     colors: {
       background: colors.background,
-      text: colors.dark,
+      text: colors.bright,
       link: colors.accent,
       linkHover: Color(colors.accent)
-        .lighten(0.1)
+        .lighten(0.6)
         .string(),
       accent: colors.accent,
       lines: colors.superLightGray
@@ -25,12 +26,12 @@ const theme = createMuiTheme({
   },
   info: {
     colors: {
-      text: colors.gray,
+      text: colors.bright,
       background: colors.background,
-      socialIcons: colors.lightGray,
-      socialIconsHover: colors.accent,
-      menuLink: colors.gray,
-      menuLinkHover: colors.accent
+      socialIcons: colors.accent,
+      socialIconsHover: colors.bright,
+      menuLink: colors.accent,
+      menuLinkHover: colors.bright
     },
     sizes: {
       width: 320,
@@ -42,11 +43,12 @@ const theme = createMuiTheme({
       boxTitleSizeL: 1.7
     }
   },
+  // All the side posts to the left when a certain post is open
   navigator: {
     colors: {
       background: colors.background,
-      postsListItemLink: colors.gray,
-      postsListItemLinkHover: colors.accent,
+      postsListItemLink: colors.accent,
+      postsListItemLinkHover: colors.bright,
       postsHeader: colors.gray
     },
     sizes: {
@@ -57,13 +59,14 @@ const theme = createMuiTheme({
       fontIncraseForL: 1.3
     }
   },
+  // Main area for posts
   main: {
     colors: {
       background: colors.background,
       title: colors.gray,
       subTitle: colors.gray,
       meta: colors.gray,
-      content: colors.dark,
+      content: colors.bright,
       footer: colors.gray,
       contentHeading: colors.gray,
       blockquoteFrame: colors.lightGray,
