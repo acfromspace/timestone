@@ -72,7 +72,7 @@ const theme = createMuiTheme({
       subTitle: colors.bright,
       meta: colors.blizzard, // Date
       content: colors.superLightGray,
-      footer: colors.blizzard, // Share, author description
+      footer: colors.accent, // Share, author description
       contentHeading: colors.blizzard, // #, ##, ###, Headers
       blockquoteFrame: colors.blizzard, // [ Quote ]
       link: colors.accent, // ???

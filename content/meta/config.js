@@ -27,6 +27,6 @@ module.exports = {
   authorSocialLinks: [
     { name: "github", url: "https://github.com/acfromspace" },
     { name: "twitter", url: "https://twitter.com/acfromspace" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "facebook", url: "https://twitter.com/acfromspace" }
   ]
 };
