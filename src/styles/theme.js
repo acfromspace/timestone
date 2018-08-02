@@ -2,19 +2,24 @@ import { createMuiTheme } from "@material-ui/core/styles";
 import Color from "color";
 import colors from "./colors";
 
+// "Garamond" is a great font for reading, but for physical options, not technological ones
+// Can use colors.transparent as what it says (Seek colors package documentation for more details)
+
 const theme = createMuiTheme({
+  // Base foundation of the whole webpage
   base: {
     colors: {
       background: colors.background,
-      text: colors.dark,
-      link: colors.accent,
-      linkHover: Color(colors.accent)
-        .lighten(0.1)
+      text: colors.bright,
+      link: colors.blizzard,
+      linkHover: Color(colors.blizzard)
+        .lighten(0.3)
         .string(),
-      accent: colors.accent,
-      lines: colors.superLightGray
+      accent: colors.blizzard,
+      lines: colors.transparent
     },
     sizes: {
+      // Affects lines height in correlation to other components
       linesMargin: "20px"
     },
     fonts: {
@@ -23,18 +28,19 @@ const theme = createMuiTheme({
       styledFonts: "300,400,600"
     }
   },
+  // Side info to the left w/ the picture
   info: {
     colors: {
-      text: colors.gray,
-      background: colors.background,
-      socialIcons: colors.lightGray,
+      text: colors.superLightGray,
+      background: colors.side,
+      socialIcons: colors.blizzard,
       socialIconsHover: colors.accent,
-      menuLink: colors.gray,
+      menuLink: colors.blizzard,
       menuLinkHover: colors.accent
     },
     sizes: {
       width: 320,
-      headerHeight: 170
+      headerHeight: 200
     },
     fonts: {
       boxTitleSize: 1.3,
@@ -42,12 +48,13 @@ const theme = createMuiTheme({
       boxTitleSizeL: 1.7
     }
   },
+  // All the side posts to the left when a certain post is open and the post index itself
   navigator: {
     colors: {
       background: colors.background,
-      postsListItemLink: colors.gray,
-      postsListItemLinkHover: colors.accent,
-      postsHeader: colors.gray
+      postsListItemLink: colors.superLightGray,
+      postsListItemLinkHover: colors.test, // ???
+      postsHeader: colors.blizzard // When in side info menu, "Lists of Posts" turns this color
     },
     sizes: {
       closedHeight: 80,
@@ -57,18 +64,19 @@ const theme = createMuiTheme({
       fontIncraseForL: 1.3
     }
   },
+  // Main area for posts
   main: {
     colors: {
       background: colors.background,
-      title: colors.gray,
-      subTitle: colors.gray,
-      meta: colors.gray,
-      content: colors.dark,
-      footer: colors.gray,
-      contentHeading: colors.gray,
-      blockquoteFrame: colors.lightGray,
-      link: colors.accent,
-      linkHover: colors.dark,
+      title: colors.bright,
+      subTitle: colors.bright,
+      meta: colors.blizzard, // Date
+      content: colors.superLightGray,
+      footer: colors.accent, // Share, author description
+      contentHeading: colors.blizzard, // #, ##, ###, Headers
+      blockquoteFrame: colors.blizzard, // [ Quote ]
+      link: colors.accent, // ???
+      linkHover: colors.test, // ???
       fbCommentsColorscheme: "light"
     },
     sizes: {
@@ -111,14 +119,15 @@ const theme = createMuiTheme({
       }
     }
   },
+  // ???, Footer section from my understanding
   footer: {
     colors: {
-      text: Color(colors.gray)
+      text: Color(colors.test)
         .lighten(0.5)
         .string(),
-      link: colors.accent,
-      linkHover: Color(colors.accent)
-        .lighten(0.2)
+      link: colors.blizzard,
+      linkHover: Color(colors.blizzard)
+        .lighten(0.3)
         .string()
     },
     fonts: {
@@ -128,29 +137,36 @@ const theme = createMuiTheme({
       }
     }
   },
+  // Bar located to the right
   bars: {
     colors: {
-      background: colors.background,
-      icon: colors.gray,
-      text: colors.gray
+      background: colors.side,
+      icon: colors.blizzard,
+      text: colors.blizzard
     },
     sizes: {
+      // Width of the actionsBar (Bar to the right)
       actionsBar: 60,
+      // ???
       infoBar: 60
     }
   },
+  // ???, I'm sure "thresholds" is misspelled
   mediaQueryTresholds: {
     M: 600,
     L: 1024
   },
+  // Palette
   palette: {
     primary: {
-      main: colors.accent
+      // Affects buttons
+      main: colors.blizzard
     },
     action: {
       hover: "rgba(0, 0, 0, 0.01)"
     }
   },
+  // Typography
   typography: {
     fontFamily: `Arial, sans-serif`,
     fontSize: 16

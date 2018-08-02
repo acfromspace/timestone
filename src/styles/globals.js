@@ -314,11 +314,11 @@ export default {
     },
 
     /*
-      END OF NORMALIZE STYLE
+      End of normalize style
     */
 
     /*
-      BEGiNNIG OF CUTSOM GLOBAL STYLE
+      Beginning of custom global style
      */
 
     html: {
