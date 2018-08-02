@@ -42,8 +42,8 @@ const styles = theme => ({
   avatar: {
     width: "36px",
     height: "36px",
-    borderRadius: "65% 75%",
-    border: "1px solid #ddd",
+    borderRadius: "100% 100%",
+    border: "1px solid #000",
     transition: "all .3s",
     transitionTimingFunction: "ease",
     display: "inline-block",

@@ -13,7 +13,7 @@ module.exports = {
   authorTwitterAccount: "acfromspace",
   // Side important info goes here
   infoTitle: "acfromspace",
-  infoTitleNote: "Development blog.",
+  infoTitleNote: "(dev_blog);",
   // manifest.json
   manifestName: "MANIFEST NAME GOES HERE",
   manifestShortName: "MANIFEST SHORT NAME GOES HERE", // max 12 characters
