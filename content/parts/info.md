@@ -2,4 +2,4 @@
 title: info
 ---
 
-Front-end web developer by day, game developer by night. 🌙
+Front-end web developer by ☀️, game developer by 🌑.
