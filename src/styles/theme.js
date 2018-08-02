@@ -54,7 +54,7 @@ const theme = createMuiTheme({
       background: colors.background,
       postsListItemLink: colors.superLightGray,
       postsListItemLinkHover: colors.test, // ???
-      postsHeader: colors.test // ???
+      postsHeader: colors.blizzard // When in side info menu, "Lists of Posts" turns this color
     },
     sizes: {
       closedHeight: 80,

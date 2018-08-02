@@ -25,8 +25,9 @@ module.exports = {
   contactEmail: "aadeleon@sdsu.edu",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/acfromspace" },
-    { name: "twitter", url: "https://twitter.com/acfromspace" },
-    { name: "facebook", url: "https://twitter.com/acfromspace" }
+    // { name: "github", url: "https://github.com/acfromspace" },
+    // { name: "twitter", url: "https://twitter.com/acfromspace" },
+    // { name: "facebook", url: "N/A" },
+    { name: "home", url: "https://acfromspace.github.io" },
   ]
 };

@@ -7,6 +7,7 @@ import config from "../../../content/meta/config";
 import GithubIcon from "!svg-react-loader!../../images/svg-icons/github.svg?name=GithubIcon";
 import FacebookIcon from "!svg-react-loader!../../images/svg-icons/facebook.svg?name=FacebookIcon";
 import TwitterIcon from "!svg-react-loader!../../images/svg-icons/twitter.svg?name=TwitterIcon";
+import EarthIcon from "!svg-react-loader!../../images/svg-icons/earth.svg";
 
 const styles = theme => ({
   social: {
@@ -33,11 +34,14 @@ const styles = theme => ({
 
 const Socialcons = props => {
   const { classes } = props;
+  // Found in config.js file
   const items = config.authorSocialLinks;
+  // Inputs the icons via import
   const icons = {
-    twitter: TwitterIcon,
-    facebook: FacebookIcon,
-    github: GithubIcon
+    // twitter: TwitterIcon,
+    // github: GithubIcon,
+    // facebook: FacebookIcon,
+    home: EarthIcon,
   };
 
   return (
