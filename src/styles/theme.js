@@ -11,11 +11,11 @@ const theme = createMuiTheme({
     colors: {
       background: colors.background,
       text: colors.bright,
-      link: colors.blizzard,
-      linkHover: Color(colors.blizzard)
+      link: colors.heavyAccent,
+      linkHover: Color(colors.heavyAccent)
         .lighten(0.3)
         .string(),
-      accent: colors.blizzard,
+      accent: colors.heavyAccent,
       lines: colors.transparent
     },
     sizes: {
@@ -33,9 +33,9 @@ const theme = createMuiTheme({
     colors: {
       text: colors.superLightGray,
       background: colors.side,
-      socialIcons: colors.blizzard,
+      socialIcons: colors.heavyAccent,
       socialIconsHover: colors.accent,
-      menuLink: colors.blizzard,
+      menuLink: colors.heavyAccent,
       menuLinkHover: colors.accent
     },
     sizes: {
@@ -54,7 +54,7 @@ const theme = createMuiTheme({
       background: colors.background,
       postsListItemLink: colors.superLightGray,
       postsListItemLinkHover: colors.test, // ???
-      postsHeader: colors.blizzard // When in side info menu, "Lists of Posts" turns this color
+      postsHeader: colors.heavyAccent // When in side info menu, "Lists of Posts" turns this color
     },
     sizes: {
       closedHeight: 80,
@@ -70,11 +70,11 @@ const theme = createMuiTheme({
       background: colors.background,
       title: colors.bright,
       subTitle: colors.bright,
-      meta: colors.blizzard, // Date
+      meta: colors.heavyAccent, // Date
       content: colors.superLightGray,
       footer: colors.accent, // Share, author description
-      contentHeading: colors.blizzard, // #, ##, ###, Headers
-      blockquoteFrame: colors.blizzard, // [ Quote ]
+      contentHeading: colors.heavyAccent, // #, ##, ###, Headers
+      blockquoteFrame: colors.heavyAccent, // [ Quote ]
       link: colors.accent, // ???
       linkHover: colors.test, // ???
       fbCommentsColorscheme: "light"
@@ -125,8 +125,8 @@ const theme = createMuiTheme({
       text: Color(colors.test)
         .lighten(0.5)
         .string(),
-      link: colors.blizzard,
-      linkHover: Color(colors.blizzard)
+      link: colors.heavyAccent,
+      linkHover: Color(colors.heavyAccent)
         .lighten(0.3)
         .string()
     },
@@ -141,8 +141,8 @@ const theme = createMuiTheme({
   bars: {
     colors: {
       background: colors.side,
-      icon: colors.blizzard,
-      text: colors.blizzard
+      icon: colors.heavyAccent,
+      text: colors.heavyAccent
     },
     sizes: {
       // Width of the actionsBar (Bar to the right)
@@ -160,7 +160,7 @@ const theme = createMuiTheme({
   palette: {
     primary: {
       // Affects buttons
-      main: colors.blizzard
+      main: colors.heavyAccent
     },
     action: {
       hover: "rgba(0, 0, 0, 0.01)"
