@@ -1,26 +1,26 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "acfromspace [TIME]", // <title>
+  siteTitle: "[DEV] acfromspace", // <title>
   shortSiteTitle: "acfromspace", // <title> ending for posts and pages that appears in the tab
-  siteDescription: "SITE DESCRIPTION GOES HERE",
-  siteUrl: "https://acfromspace.netlify.com",
-  pathPrefix: "",
-  siteImage: "preview.jpg",
-  siteLanguage: "en",
+  siteDescription: "Personal portal to the dimensions of time.",
+  siteUrl: "https://timestone.netlify.com",
+  pathPrefix: "", // ????
+  siteImage: "", // ???
+  siteLanguage: "en", // English
   // author
   authorName: "AC De Leon",
   authorTwitterAccount: "acfromspace",
   // Side important info goes here
   infoTitle: "acfromspace",
-  infoTitleNote: "(dev_blog);",
-  // manifest.json
-  manifestName: "MANIFEST NAME GOES HERE",
-  manifestShortName: "MANIFEST SHORT NAME GOES HERE", // max 12 characters
+  infoTitleNote: "Development Blog",
+  // manifest.json, not sure what this really does
+  manifestName: "acfromspace",
+  manifestShortName: "ac", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.background,
   manifestThemeColor: colors.background,
-  manifestDisplay: "MANIFEST DISPLAY GOES HERE",
+  manifestDisplay: "",
   // contact
   contactEmail: "aadeleon@sdsu.edu",
   // social
@@ -28,6 +28,6 @@ module.exports = {
     // { name: "github", url: "https://github.com/acfromspace" },
     // { name: "twitter", url: "https://twitter.com/acfromspace" },
     // { name: "facebook", url: "N/A" },
-    { name: "home", url: "https://acfromspace.github.io" },
+    { name: "home", url: "https://spacestone.netlify.com" },
   ]
 };
