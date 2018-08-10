@@ -5,13 +5,13 @@ category: "dev"
 cover: AvatarRagnaros.jpg
 ---
 
-![](./RagnarosHello.jpg)
+![](content/images/RagnarosHello.jpg)
 
 Greetings to whomever reads this!
 
 <!-- Need to use HTML styling in order to open new tabs due to markdown not having the option to (well technically HTML is the option) -->
 
-You've most likely came here from <a href="https://acfromspace.github.io" target="_blank">the space stone</a> portal.
+You've most likely came here from <a href="https://spacestone.netlify.com" target="_blank">the space stone</a> portal.
 
 I finally am getting the blog working and as soon as this is posted, there is still work to be done, but that's the fun part!
 The main focus of this blog for now is to share my learnings of front-end/game development related.
