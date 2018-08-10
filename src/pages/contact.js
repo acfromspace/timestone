@@ -10,6 +10,8 @@ import Content from "../components/Main/Content";
 import Form from "../components/ContactForm";
 import config from "../../content/meta/config";
 
+// Contact form
+
 const styles = theme => ({});
 
 const Contact = () => {
@@ -21,6 +23,7 @@ const Contact = () => {
           Feel free to contact me by email: <Obfuscate email={config.contactEmail} /> or use the
           form below.
         </Content>
+        {/* Import the form here */}
         <Form />
       </Article>
     </Main>
