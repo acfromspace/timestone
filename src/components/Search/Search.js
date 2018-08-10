@@ -13,7 +13,7 @@ const styles = theme => ({
     },
     "& .ais-SearchBox-form": {
       position: "relative",
-      borderBottom: "1px solid #aaa",
+      borderBottom: "6px solid #bbbbbb",
       display: "flex",
       justifyContent: "space-between"
     },
@@ -25,15 +25,15 @@ const styles = theme => ({
       flexGrow: 1
     },
     "& .ais-SearchBox-submit, & .ais-SearchBox-reset": {
-      background: "none",
-      border: "none",
-      fill: "#666",
+      background: "#6da5d9",
+      border: "5px solid #6da5d9",
+      fill: "#fff",
       flexGrow: 0
     },
     "& .ais-Stats": {
       margin: ".5em 0 2em .3em",
       fontSize: ".9em",
-      color: "#999",
+      color: "#6da5d9",
       display: "block"
     },
     "& .ais-Hits-list": {
@@ -48,7 +48,7 @@ const styles = theme => ({
     },
     "& .ais-Pagination-item": {
       "& a, & span": {
-        color: "#666",
+        color: "#dedede",
         fontSize: "1.2em",
         display: "block",
         padding: ".5em .5em 2em",

@@ -10,7 +10,7 @@ const styles = theme => ({
     fontSize: "1.2em",
     display: "block",
     width: "100%",
-    color: "#666",
+    color: "#bbbbbb",
     "&::before": {
       content: `"•"`,
       position: "absolute",
