@@ -1,11 +1,11 @@
 ---
-title: Hello World!
+title: 🌎 Hello World!
 subTitle: Getting comfortable with front-end, especially blog format.
 category: "dev"
 cover: AvatarRagnaros.jpg
 ---
 
-![](content/images/RagnarosHello.jpg)
+![](RagnarosHello.jpg)
 
 Greetings to whomever reads this!
 
