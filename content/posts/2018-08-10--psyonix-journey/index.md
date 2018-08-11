@@ -21,7 +21,7 @@ When people mention "Psyonix" I used to think...
 
 `Who is Psyonix?`
 
-My thoughts have changed since then and I'm glad I took it upon myself to do some research and be immersed in the video game company. 
+My thoughts have changed since then and I'm glad I took it upon myself to do some research and be immersed in the video game company. Rocket League is more than just a game, it's a culture. Psyonix is more than just a company, it's a community.
 
 I first heard of Psyonix when my friend started working for them. I did some research and never realized some of the people who worked there were the reason why I loved playing Unreal Tournament when I was younger. (Psyonix helped create the "Onslaught" game design and implementation which I had a blast playing online and occasionally on LAN at the military base my father was working at) Through observing these two games I noticed the similarities between them, but I believe the one that carries well across both is the vehicle aspect. When we're controlling the vehicle, we want to go fast, we want to rocket high towards the Z-axis collision area (assuming there is one). This is what made the game mode of "Onslaught" super fun and this is the very core mechanic in Rocket League that became a game recognized by many.
 
