@@ -3,7 +3,7 @@ title: Who am I?
 menuTitle: Who am I?
 ---
 
-![](Hearthstone.png)
+![](Hearthstone.jpg)
 
 Greetings traveler, I'm AC De Leon.
 

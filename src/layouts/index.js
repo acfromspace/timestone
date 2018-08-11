@@ -20,6 +20,8 @@ import LayoutWrapper from "../components/LayoutWrapper/";
 
 import { isWideScreen, timeoutThrottlerHandler } from "../utils/helpers";
 
+// Creates the layout of the base foundation for the whole page
+
 const InfoBox = asyncComponent(
   () =>
     import("../components/InfoBox/")
@@ -121,6 +123,7 @@ export default connect(
 )(withRoot(injectSheet(globals)(Layout)));
 
 //eslint-disable-next-line no-undef
+// This is where the "cover" for the posts is compromised, simply put ImageSharp quality up to 100, default is 50
 export const guery = graphql`
   query LayoutQuery {
     posts: allMarkdownRemark(
@@ -141,7 +144,7 @@ export const guery = graphql`
             cover {
               children {
                 ... on ImageSharp {
-                  resolutions(width: 90, height: 90) {
+                  resolutions(width: 90, height: 90, quality: 100) {
                     ...GatsbyImageSharpResolutions_withWebp_noBase64
                   }
                 }
