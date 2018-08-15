@@ -1,4 +1,5 @@
 ---
+# Icon is the Earth globe
 title: 🌎 Hello World!
 subTitle: Getting comfortable with front-end, especially blog format.
 category: "dev"
