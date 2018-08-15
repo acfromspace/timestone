@@ -1,11 +1,12 @@
 ---
+# Icon is a rocket ship
 title: 🚀 The journey to Psyonix!
 subTitle: First time visiting a video game company headquarters!
 category: "career"
 cover: AvatarSir.jpg
 ---
 
-![](RocketLeague.jpg)
+![RocketLeague](RocketLeague.jpg)
 
 A friend of mine, a Graphics Engineer for Psyonix, took me on a tour of the Psyonix headquarters!
 
