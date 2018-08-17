@@ -1,5 +1,5 @@
 ---
-# Icon is the Earth globe
+# Icon is a "Globe Showing Americas"
 title: 🌎 Hello World!
 subTitle: Getting comfortable with front-end, especially blog format.
 category: "dev"
