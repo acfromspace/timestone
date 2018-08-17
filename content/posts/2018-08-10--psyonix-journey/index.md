@@ -1,5 +1,5 @@
 ---
-# Icon is a rocket ship
+# Icon is a "Rocket"
 title: 🚀 The journey to Psyonix!
 subTitle: First time visiting a video game company headquarters!
 category: "career"

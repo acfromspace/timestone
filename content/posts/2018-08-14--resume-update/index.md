@@ -1,5 +1,5 @@
 ---
-# Icon is a microscope
+# Icon is a "Microscope"
 title: 🔬 Finding the resume for me...
 subTitle: "Work harder. Better. Make faster. Stronger. Evolution never over."
 category: "career"
