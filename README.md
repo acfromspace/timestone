@@ -25,11 +25,11 @@
 
 *timestone* is an entry portal website with the following features:
 
-<!-- - **Blazing fast loading thanks to Gatsby.** Get all the benefits of static websites with none of the limitations. Gatsby sites are fully functional React apps, so you can create high-quality, dynamic web apps, from blogs to ecommerce sites to user dashboards.
+- **Blazing fast loading thanks to Gatsby.** Get all the benefits of static websites with none of the limitations. Gatsby sites are fully functional React apps, so you can create high-quality, dynamic web apps, from blogs to ecommerce sites to user dashboards.
 
 - **Customizability.** Within the "src" folder, all adaptable files to be made by the user are available. One can even go further to possibly add in aesthetic javascript node packages to add visuals.
 
-- **Hosted with Netlify.** Don't get me wrong, GitHub Pages offers great utility for first timers, but as I experienced more with web hosts, I needed something more reliable and easier to use. Netlify offers both web-based and command-line interfaces in order to adapt to an extremely easy and intuitive user interface dependent on the user. -->
+- **Hosted with Netlify.** Netlify offers both web-based and command-line interfaces in order to adapt to an extremely easy and intuitive user interface dependent on the user.
 
 <!-- INSTALLATION -->
 
