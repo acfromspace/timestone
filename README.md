@@ -10,7 +10,7 @@
 <!-- DESCRIPTION -->
 
 <h3 align="center">
-  ⏳
+  <span role="img" aria-label="Hourglass Not Done">⏳</span>
 </h3>
 <p align="center">
   <strong>Personal portal to the dimensions of time.</strong><br>
@@ -31,9 +31,20 @@
 
 - **Hosted with Netlify.** Netlify offers both web-based and command-line interfaces in order to adapt to an extremely easy and intuitive user interface dependent on the user.
 
-<!-- INSTALLATION -->
+<!-- QUICK INSTALLATION -->
 
-## 🚀 Putting this in the Infinity Gauntlet (Installation)
+## <span role="img" aria-label="Sparkles">✨</span> "Snappy" Installation (Quick Installation)
+
+- Ensure Gatsby is installed on your machine `npm install --global gatsby-cli`
+- Clone the repo `gatsby new YOU_PICK_NAME https://github.com/acfromspace/timestone`
+- Change directory `cd YOU_PICK_NAME`
+- Install node packages `npm install`
+- Serve it locally `gatsby develop`
+- Go to `http://localhost:8000`
+
+<!-- IN-DEPTH INSTALLATION -->
+
+## <span role="img" aria-label="Rocket">🚀</span> Putting this in the Infinity Gauntlet (In-Depth Installation)
 
 You can get a new Gatsby site up and running on your local dev environment as soon as possible.
 
@@ -47,7 +58,7 @@ You can get a new Gatsby site up and running on your local dev environment as so
     # install the Gatsby CLI globally so your computer knows what Gatsby is
     npm install --global gatsby-cli
 
-    # create a new Gatsby site using the 'spacestone'
+    # create a new Gatsby site using the 'timestone'
     gatsby new YOU_PICK_NAME https://github.com/acfromspace/timestone
     ```
 
@@ -70,7 +81,7 @@ You can get a new Gatsby site up and running on your local dev environment as so
 
 3.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`. Open the `YOU_PICK_NAME` directory in your code editor of choice and edit `src/`. Save your changes and the browser will update in real time!
+    Your site is now running at `http://localhost:8000`. Open the `YOU_PICK_NAME` directory in your code editor of choice and edit `src`. Save your changes and the browser will update in real time!
 
 4.  **Push to your Git repository**
 
@@ -93,7 +104,7 @@ You can get a new Gatsby site up and running on your local dev environment as so
 
     I would put the steps here, but Netlify does such a good job guiding people, there's no need to. Simply go on their website, make an account, link up your GitHub, and choose accordingly.
     
-    If it prompts for `build command` and `build location`, but doesn't fill it in automatically, put in `gatsby build` and `public/` respectively.
+    If it prompts for `build command` and `build location`, but doesn't fill it in automatically, put in `gatsby build` and `public` respectively.
 
     To have a demonstration of how easy it is, click on this the button below. 
     
@@ -101,62 +112,96 @@ You can get a new Gatsby site up and running on your local dev environment as so
 
     <!-- NETLIFY BUTTON -->
     [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/acfromspace/timestone)
+    
+    At this point, you’ve got a fully functional Gatsby website that anyone can access via Netlify. 
 
+    Any questions? Put an issue onto the repo and we'll sort it out!
 
-<!-- Make a blog post about this -->
+<!-- EXTERNAL SERVICES -->
 
-**Note:** Google Analytics and Algolia is used for this project. To use the plugins, create an account with Google Analytics and Algolia to receive the keys. Then create a `.env` file at the root of your project with the respective properties. This will then track users who visit your website as well as feature a search function. If you wish not to use Google Analytics nor Algolia, simply comment out section in `gatsby-config.js`.
+## <span role="img" aria-label="Doggo">🐕</span> Fetch information doggo! (External Services)
 
-At this point, you’ve got a fully functional Gatsby website that anyone can access via Netlify. Any questions? Put an issue onto the repo and we'll sort it out!
+The starter uses external services for some functions: searching and analytics. To use them you have to secure some access data. All services are free to use or have generous free tiers big enough for a personal blog.
+
+Create an `.env` file like below in the root folder. Change `...` placeholders with your own keys.
+
+```text
+GOOGLE_ANALYTICS_ID=...
+ALGOLIA_APP_ID=...
+ALGOLIA_SEARCH_ONLY_API_KEY=...
+ALGOLIA_ADMIN_API_KEY=...
+ALGOLIA_INDEX_NAME=...
+```
+
+If you wish not to use external services, simply comment out the respective sections in `gatsby-config.js`.
 
 <!-- WHAT'S INSIDE? -->
 
-## 🤔 What's inside?
+## <span role="img" aria-label="Thinking Face">🤔</span> What's inside?
 
-Coming soon!
-
-<!-- A quick look at the top-level files and directories you'll see in this Gatsby project.
+A quick look at the top-level files and directories you'll see in this Gatsby project.
 
        .
-    1  ├── node_modules
-    2  ├── src
-    3  ├── static
-    4  ├── .babelrc
-    5  ├── .gitignore
-    6  ├── .prettierrc
-    7  ├── .travis.yml
-    8  ├── gatsby-config.js
-    9  ├── gatsby-node.js
-    10 ├── LICENSE
-    11 ├── package-lock.json
-    12 ├── package.json
-    13 └── README.md
+    1  ├── content
+    2  ├── node_modules
+    3  ├── public
+    4  ├── scripts
+    5  ├── src
+    6  ├── static
+    7  ├── .babelrc
+    8  ├── .editorconfig
+    9  ├── .eslintignore
+    10 ├── .eslintrc
+    11 ├── .gitignore
+    12 ├── .prettierrc
+    13 ├── gatsby-browser
+    14 ├── gatsby-config.js
+    15 ├── gatsby-node.js
+    16 ├── gatsby-ssr
+    17 ├── LICENSE
+    18 ├── package-lock.json
+    19 ├── package.json
+    20 └── README.md
 
-  1.  **`/node_modules`**: The directory where all of the modules of  code that your project depends on (npm packages) are automatically installed.  
-  
-  2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser), like your site header, or a page template. “Src” is a convention for “source code”.
+  1. **`/content`**: Coming soon!
 
-  3. **`/static`**: The directory where HTML dependencies lie. Normally the `favicon.ico` (the image next to the title in the browser tab), goes here.
+  2.  **`/node_modules`**: The directory where all of the modules of  code that your project depends on (npm packages) are automatically installed.  
 
-  4.  **`.babelrc`**: This file enables to write modern JavaScript that will be "transpiled" to widely-supported Javascript. Think of it as a language translator for all devices that will see your website.
+  3.  **`/public`**: Coming soon!
   
-  5.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for. For instance, you shouldn't let anyone get your `.env` files (These usually contain your password and such to speak with APIs).
+  4.  **`/scripts`**: Coming soon!
+
+  5.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser), like your site header, or a page template. “Src” is a convention for “source code”.
+
+  6. **`/static`**: The directory where HTML dependencies lie. Normally the `favicon.ico` (the image next to the title in the browser tab), goes here.
+
+  7.  **`.babelrc`**: This file enables to write modern JavaScript that will be "transpiled" to widely-supported Javascript. Think of it as a language translator for all devices that will see your website.
   
-  6.  **`.prettierrc`**: This is a configuration file for a tool called [Prettier](https://prettier.io/), which is a tool to help keep the formatting of your code consistent.
+  8.  **`.editorconfig`**: Coming soon!
   
-  7.  **`.travis.yml`**: This file runs your program's tests every time you commit to GitHub. Point of this is discover right away if a commit broke something and to fix it before it becomes a problem. Imagine snapping the gauntlet if you didn't have all 6 stones! This warns you before creating poor decisions.
+  9.  **`.eslintignore`**: Coming soon!
   
-  8.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://next.gatsbyjs.org/docs/gatsby-config/) for more detail).
+  10.  **`.eslintrc.json`**: Coming soon!
   
-  9.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby node APIs](https://next.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process. This project contains none, but the file remains if one wishes to build blog posts or of the sort.
+  11.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for. For instance, you shouldn't let anyone get your `.env` files (These usually contain your password and such to speak with APIs).
   
-  10.  **`LICENSE`**: This project is licensed under the MIT license.
+  12.  **`.prettierrc`**: This is a configuration file for a tool called [Prettier](https://prettier.io/), which is a tool to help keep the formatting of your code consistent.
   
-  11.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. (You won’t change this file directly).
+  13.  **`gatsby-browser.js`**: Coming soon!
   
-  12.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+  14.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://next.gatsbyjs.org/docs/gatsby-config/) for more detail).
   
-  13.  **`README.md`**: A text file containing useful reference information about your project. The one you're reading right now! -->
+  15.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby node APIs](https://next.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process. This project contains none, but the file remains if one wishes to build blog posts or of the sort.
+  
+  16.  **`.gatsby-ssr.js`**: Coming soon!
+  
+  17.  **`LICENSE`**: This project is licensed under the MIT license.
+  
+  18.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. (You won’t change this file directly).
+  
+  19.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+  
+  20.  **`README.md`**: A text file containing useful reference information about your project. The one you're reading right now!
 
 <!-- LICENSE -->
 
