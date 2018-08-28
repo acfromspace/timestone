@@ -19,11 +19,20 @@
 
 <!-- INFORMATION (Shields:IO) -->
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/acfromspace/timestone/blob/master/LICENSE) ![Location](https://img.shields.io/badge/location-compromised%20by%20Thanos-red.svg)
+<p align="center">
+    <a href="https://github.com/acfromspace/timestone/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
+            alt="License: MIT"></a>
+    <img src="https://img.shields.io/badge/location-compromised%20by%20Thanos-red.svg"
+            alt="Location: Compromised by Thanos">
+    <a href="https://twitter.com/intent/follow?screen_name=acfromspace">
+        <img src="https://img.shields.io/twitter/follow/acfromspace.svg?style=social&logo=twitter"
+            alt="Follow @acfromspace"></a>
+</p>
 
-<!-- FEATURES -->
+<!-- FEATURES (Gif goes right below) -->
 
-*timestone* is an entry portal website with the following features:
+*timestone* is a blog website with the following features:
 
 - **Blazing fast loading thanks to Gatsby.** Get all the benefits of static websites with none of the limitations. Gatsby sites are fully functional React apps, so you can create high-quality, dynamic web apps, from blogs to ecommerce sites to user dashboards.
 
@@ -39,7 +48,7 @@
 - Clone the repo `gatsby new YOU_PICK_NAME https://github.com/acfromspace/timestone`
 - Change directory `cd YOU_PICK_NAME`
 - Install node packages `npm install`
-- Serve it locally `gatsby develop`
+- Serve it locally `gatsby developee`
 - Go to `http://localhost:8000`
 
 <!-- IN-DEPTH INSTALLATION -->
@@ -121,7 +130,7 @@ You can get a new Gatsby site up and running on your local dev environment as so
 
 ## <span role="img" aria-label="Doggo">🐕</span> Fetch information doggo! (External Services)
 
-The starter uses external services for some functions: searching and analytics. To use them you have to secure some access data. All services are free to use or have generous free tiers big enough for a personal blog.
+The starter uses external services for some functions: searching and analytics. To use them you have to secure some access data. All services are free to use or have generous free tiers big enough for a personal project.
 
 Create an `.env` file like below in the root folder. Change `...` placeholders with your own keys.
 
@@ -150,58 +159,52 @@ A quick look at the top-level files and directories you'll see in this Gatsby pr
     6  ├── static
     7  ├── .babelrc
     8  ├── .editorconfig
-    9  ├── .eslintignore
-    10 ├── .eslintrc
-    11 ├── .gitignore
-    12 ├── .prettierrc
-    13 ├── gatsby-browser
-    14 ├── gatsby-config.js
-    15 ├── gatsby-node.js
-    16 ├── gatsby-ssr
-    17 ├── LICENSE
-    18 ├── package-lock.json
-    19 ├── package.json
-    20 └── README.md
+    9  ├── .gitignore
+    10 ├── .prettierrc
+    11 ├── gatsby-browser
+    12 ├── gatsby-config.js
+    13 ├── gatsby-node.js
+    14 ├── gatsby-ssr
+    15 ├── LICENSE
+    16 ├── package-lock.json
+    17 ├── package.json
+    18 └── README.md
 
-  1. **`/content`**: Coming soon!
+  1. **`/content`**: Mainly markdown files to create your blog posts! Make sure to have the required properties or else the posts won't render correctly.
 
   2.  **`/node_modules`**: The directory where all of the modules of  code that your project depends on (npm packages) are automatically installed.  
 
-  3.  **`/public`**: Coming soon!
+  3.  **`/public`**: What the user sees if pondering your website.
   
-  4.  **`/scripts`**: Coming soon!
+  4.  **`/scripts`**: Contains a script to create favicons! Instructions in the file itself.
 
-  5.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser), like your site header, or a page template. “Src” is a convention for “source code”.
+  5.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser), like your site header, or a page template. “src” is a convention for “source code”.
 
   6. **`/static`**: The directory where HTML dependencies lie. Normally the `favicon.ico` (the image next to the title in the browser tab), goes here.
 
   7.  **`.babelrc`**: This file enables to write modern JavaScript that will be "transpiled" to widely-supported Javascript. Think of it as a language translator for all devices that will see your website.
   
-  8.  **`.editorconfig`**: Coming soon!
+  8.  **`.editorconfig`**: [EditorConfig](https://editorconfig.org) helps developers define and maintain consistent coding styles between different editors and IDEs
   
-  9.  **`.eslintignore`**: Coming soon!
+  9.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for. For instance, you shouldn't let anyone get your `.env` files (These usually contain your password and such to speak with APIs).
   
-  10.  **`.eslintrc.json`**: Coming soon!
+  10.  **`.prettierrc`**: This is a configuration file for a tool called [Prettier](https://prettier.io/), which is a tool to help keep the formatting of your code consistent.
   
-  11.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for. For instance, you shouldn't let anyone get your `.env` files (These usually contain your password and such to speak with APIs).
+  11.  **`gatsby-browser.js`**: Implements [certain APIs](https://www.gatsbyjs.org/docs/browser-apis/) that the file maintains that deals with client side rendering.
   
-  12.  **`.prettierrc`**: This is a configuration file for a tool called [Prettier](https://prettier.io/), which is a tool to help keep the formatting of your code consistent.
+  12.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://next.gatsbyjs.org/docs/gatsby-config/) for more detail).
   
-  13.  **`gatsby-browser.js`**: Coming soon!
+  13.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby node APIs](https://next.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process. This project contains none, but the file remains if one wishes to build blog posts or of the sort.
   
-  14.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://next.gatsbyjs.org/docs/gatsby-config/) for more detail).
+  14.  **`.gatsby-ssr.js`**: Implements [certain APIs](https://www.gatsbyjs.org/docs/ssr-apis/) that the file maintains that deals with server side rendering.
   
-  15.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby node APIs](https://next.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process. This project contains none, but the file remains if one wishes to build blog posts or of the sort.
+  15.  **`LICENSE`**: This project is licensed under the MIT license.
   
-  16.  **`.gatsby-ssr.js`**: Coming soon!
+  16.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. (You won’t change this file directly)
   
-  17.  **`LICENSE`**: This project is licensed under the MIT license.
+  17.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
   
-  18.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. (You won’t change this file directly).
-  
-  19.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-  
-  20.  **`README.md`**: A text file containing useful reference information about your project. The one you're reading right now!
+  18.  **`README.md`**: A text file containing useful reference information about your project. The one you're reading right now!
 
 <!-- LICENSE -->
 
