@@ -13,7 +13,7 @@ Since I usually adapt and find cool things often, this will be the reference poi
 ### Editor + Plugins
 
 - <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> is the text editor I use that provides a built in terminal as well as an assortment of plugins in the store ready to download. 
-- <a href="https://github.com/acfromspace/infinitygauntlet" target="_blank">Plugins</a></a> for Visual Studio Code will be located here.
+- <a href="https://github.com/acfromspace/infinitygauntlet" target="_blank">Plugins</a></a> for Visual Studio Code will be located here as well as my music.
 - <a href="https://github.com/tonsky/FiraCode" target="_blank">Fira code</a></a> is the text editor font I use which provides easy readability that makes sense.
 
 
