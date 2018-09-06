@@ -52,7 +52,7 @@
 - Clone the repo `gatsby new YOU_PICK_NAME https://github.com/acfromspace/timestone`
 - Change directory `cd YOU_PICK_NAME`
 - Install node packages `npm install`
-- Serve it locally `gatsby developee`
+- Serve it locally `gatsby develop`
 - Go to `http://localhost:8000`
 
 <!-- IN-DEPTH INSTALLATION -->
