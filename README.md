@@ -191,7 +191,7 @@ A quick look at the top-level files and directories you'll see in this project.
 13. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://next.gatsbyjs.org/docs/node-apis/) (if any). These allow customizations of default Gatsby settings affecting pieces of the site build process.
 14. **`.gatsby-ssr.js`**: Implements [certain APIs](https://www.gatsbyjs.org/docs/ssr-apis/) that the file maintains that deals with server side rendering.
 15. **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
-16. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. (You won’t change this file directly)
+16. **`package-lock.json`** This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. (You won’t change this file directly)
 17. **`package.json`**: A manifest file for [Node.js](https://nodejs.org/en/) projects, which includes metadata (the project’s name, author, package names, etc.). This manifest is how [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/en/) knows which packages to install for your project.
 18. **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
 
