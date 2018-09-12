@@ -55,7 +55,7 @@
 
 <!-- IN-DEPTH GUIDE -->
 
-## <span role="img" aria-label="Rocket">🚀</span> Putting this in the Infinity Gauntlet (In-Depth Installation)
+## <span role="img" aria-label="Rocket">🚀</span> Putting this in the Infinity Gauntlet (In-Depth Guide)
 
 You can get a new Gatsby site up and running on your local dev environment as soon as possible.
 
