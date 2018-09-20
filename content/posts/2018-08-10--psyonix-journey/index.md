@@ -12,7 +12,7 @@ A friend of mine, a Graphics Engineer for Psyonix, took me on a tour of the Psyo
 
 First off, I was ecstatic getting the chance to experience what it's like working for a video game company. Questions arose! How is the employee culture like? What conflicts do they face together and what tools do they use to handle their conflicts so the company and the user base can be satisfied? What opportunities are there for me with this company?
 
-### ✨ Episodes I, II, II: The prequel trilogy
+## <span role="img" aria-label="Sparkles">✨</span> Episodes I, II, II: The prequel trilogy
 
 When people mention "Rocket League" I used to think...
 
@@ -30,7 +30,7 @@ I first heard of Psyonix when my friend started working for them. I did some res
 
 Now, onto the journey being at the headquarters.
 
-### 🌟 Episodes IV, V, VI: The original trilogy
+## <span role="img" aria-label="Glowing Star">🌟</span> Episodes IV, V, VI: The original trilogy
 
 ![PsyonixHeadquarters](PsyonixHeadquarters.jpg)
 
@@ -44,9 +44,9 @@ Just kidding, thought I need to be reserved with my word choices.
 
 Where do I begin? The whole experience was amazing. I got to meet some amazing people, unaware of what they're doing, but putting pieces together of what they are doing. The employee atmosphere felt like I was just walking around my childhood neighborhood saying "Hello!" and whichever phrase have you. The set up of the work areas were no joke, it felt like somewhere I wanted to work at 100%.
 
-### ⭐ Episodes VII, VIII, IX: The sequel trilogy
+## <span role="img" aria-label="Star">⭐</span> Episodes VII, VIII, IX: The sequel trilogy
 
-I've applied to Psyonix before, but I wasn't ready for what they needed me to fill in which was understandable. Everyday I'm learning and I find the beauty of learning engaging. Visiting a video game company headquarters definitely inspired me on what I want to do. 
+I've applied to Psyonix before, but I wasn't ready for what they needed me to fill in which was understandable. Everyday I'm learning and I find the beauty of learning engaging. Visiting a video game company headquarters definitely inspired me on what I want to do.
 
 > I want to work for a video game company not only because I love games at the most simplest gesture, but games give a spectrum of emotions to people which I want to help create.
 

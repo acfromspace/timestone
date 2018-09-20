@@ -10,15 +10,15 @@ I've always used Adobe Illustrator, a creative software used to create documents
 
 > Throughout this blog post, I explain my timeline through crafting resumes and why I made the changes I did.
 
-### First Resume
+## First Resume
 
-This is the first time I used Adobe Illustrator for creating a resume. 
+This is the first time I used Adobe Illustrator for creating a resume.
 
 When making my resume I thought "Why not have fun with it, include everything that I thought was cool." If you wish not to cringe, please stray your eyes away from this beautiful, but blinding image.
 
 ![FirstResume](FirstResume.jpg)
 
-### Seventh Resume
+## Seventh Resume
 
 Fast-forward in time, this is the seventh resume.
 
@@ -31,7 +31,7 @@ Fast-forward in time, this is the seventh resume.
 
 ![SeventhResume](SeventhResume.jpg)
 
-### Tenth Resume
+## Tenth Resume
 
 This was the final version until I did the transfer to the new format which I show right after this one.
 
@@ -45,7 +45,7 @@ This was the final version until I did the transfer to the new format which I sh
 
 ![TenthResume](TenthResume.jpg)
 
-### Present Resume
+## Present Resume
 
 This is the resume format I am using now.
 
@@ -61,4 +61,3 @@ I switched to <a href="http://creddle.io/" target="_blank">creddle.io</a>, a fre
 In conclusion, I will be using creddle.io for it's ease of access and ease of use.
 
 > You don't have to have a hard time crafting something, it should be simple and easy to use that produces excellent results.
-
