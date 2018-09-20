@@ -6,9 +6,11 @@ category: "tutorial"
 cover: AvatarValeera.jpg
 ---
 
-Video will be released soon. You can click the images to look closer!
+## <span role="img" aria-label="Sparkles">✨</span> Sing-Along Tutorial Video
 
-### Set-up
+<iframe width="540" height="315" src="https://www.youtube.com/embed/MwPQtC-Es58" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## <span role="img" aria-label="Sparkles">✨</span> Set-up
 
 For this tutorial you should have these:
 
@@ -23,7 +25,7 @@ Something cool to record!
 
 **Note:** Make sure you have empty space on your main drive due to PS caching information!
 
-### Tutorial
+## <span role="img" aria-label="Sparkles">✨</span> Tutorial
 
 You want to record whatever you want to make a .gif out of with OBS at preferably 1080p settings, so open up OBS!
 
@@ -31,14 +33,14 @@ You want to record whatever you want to make a .gif out of with OBS at preferabl
 
 ```txt
 Fix the settings to 1080p:
-> Settings 
-> Video 
+> Settings
+> Video
 > Resolution
 
 Create the environment to record:
-> Scenes 
+> Scenes
 > Add Scene
-> Sources 
+> Sources
 > Window Capture
 > Start Recording!
 ```
@@ -49,17 +51,17 @@ Open up PS:
 
 ```txt
 Importing the video to layers:
-> Go to the top left 
-> File 
-> Import 
+> Go to the top left
+> File
+> Import
 > Video Frames to Layers
 
 Fix options in the window that pops up:
 > Range to Import
 
 View the timeline:
-> Go to the top 
-> Window 
+> Go to the top
+> Window
 > Timeline
 ```
 
@@ -71,10 +73,10 @@ Ideally you want your .gifs to look fluid, high quality, and not take so much sp
 
 ```txt
 Selecting all the frames in the timeline and changing speed:
-> Go to the bottom 
-> Click first frame 
+> Go to the bottom
+> Click first frame
 > Hold [SHIFT] while clicking last frame
-> Right click on any of them 
+> Right click on any of them
 > Change time delay (Normally I choose 0.04 seconds)
 ```
 
@@ -82,8 +84,8 @@ Selecting all the frames in the timeline and changing speed:
 
 ```txt
 Making the .gif (Finally!):
-> Go to the top left 
-> File 
+> Go to the top left
+> File
 > Save for Web...
 ```
 
@@ -93,7 +95,7 @@ A window should appear here with plenty of options at the right side and will le
 
 When satisfied, simply save!
 
-### Now what?
+## <span role="img" aria-label="Sparkles">✨</span> Now what?
 
 If the file is less than 10 MB, you can abuse the GitHub issue "drag and drop" files. Copy the URL that GitHub converts it to and tada! (Much easier than other image platforms that reduce the quality, you know who I'm talking about.)
 

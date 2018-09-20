@@ -6,13 +6,16 @@ import {
   GooglePlusShareButton,
   LinkedinShareButton,
   TwitterShareButton,
+  RedditShareButton,
   FacebookShareCount,
   GooglePlusShareCount,
   LinkedinShareCount,
+  RedditShareCount,
   FacebookIcon,
   TwitterIcon,
   GooglePlusIcon,
-  LinkedinIcon
+  LinkedinIcon,
+  RedditIcon
 } from "react-share";
 
 import config from "../../../content/meta/config";
@@ -58,7 +61,18 @@ class PostShare extends React.Component {
     return (
       <div className={classes.share}>
         {/* Sharing happens here */}
-        <span className={classes.label}>Share the loot? ✨💰✨</span>
+        <span className={classes.label}>
+          Share the loot?{" "}
+          <span role="img" aria-label="Sparkles">
+            ✨
+          </span>
+          <span role="img" aria-label="Money">
+            💰
+          </span>
+          <span role="img" aria-label="Sparkles">
+            ✨
+          </span>
+        </span>
         <div className={classes.links}>
           <TwitterShareButton url={url} title={title}>
             <TwitterIcon round size={iconSize} />
@@ -85,6 +99,12 @@ class PostShare extends React.Component {
               {count => <div className="share-count">{filter(count)}</div>}
             </LinkedinShareCount>
           </LinkedinShareButton>
+          <RedditShareButton url={url} title={title} description={excerpt}>
+            <RedditIcon round size={iconSize} />
+            <RedditShareCount url={url}>
+              {count => <div className="share-count">{filter(count)}</div>}
+            </RedditShareCount>
+          </RedditShareButton>
         </div>
       </div>
     );
