@@ -31,10 +31,10 @@
 <!-- FEATURES (Gif goes right below) -->
 
 <p align="center">
-  <img src="./static/demo.gif">
+  <img src="file:///C:/Users/EVADELEON/Desktop/timestone/static/demo.gif">
 </p>
 
-[*timestone*](https://timestone.netlify.com) is a blog website with the following features:
+[_timestone_](https://timestone.netlify.com) is a blog website with the following features:
 
 - **Blazing fast loading thanks to [Gatsby](https://www.gatsbyjs.org/).** Get all the benefits of static websites with none of the limitations. Gatsby sites are fully functional React apps, so you can create high-quality, dynamic web apps, from blogs to ecommerce sites to user dashboards.
 
@@ -87,7 +87,7 @@ You can get a new Gatsby site up and running on your local dev environment as so
     # Gatsby command to create a live server on your end
     gatsby develop
     ```
-    
+
     **Note:** Performing `gatsby develop` will create `.cache` and `public` folders which help run the website on your local server. These will not be pushed to the repo online, but locally on your own machine.
 
 3.  **Open the source code and start editing!**
@@ -114,19 +114,20 @@ You can get a new Gatsby site up and running on your local dev environment as so
 5.  **Create an account with [Netlify](https://www.netlify.com/) and follow the steps**
 
     I would put the steps here, but Netlify does such a good job guiding people, there's no need to. Simply go on their website, make an account, link up your GitHub, and choose accordingly.
-    
+
     If it prompts for `build command` and `build location`, but doesn't fill it in automatically, put in `gatsby build` and `public` respectively.
 
-    To have a demonstration of how easy it is, click on this the button below. 
-    
-    (Note this will create the website based off of *my version*, so if you have any edits, follow the original steps, this is merely for demo purposes or for those who want a quick start.)
+    To have a demonstration of how easy it is, click on this the button below.
+
+    (Note this will create the website based off of _my version_, so if you have any edits, follow the original steps, this is merely for demo purposes or for those who want a quick start.)
 
     <!-- NETLIFY BUTTON -->
+
     [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/acfromspace/timestone)
-    
+
     For external services (look at the next topic below), Netlify has a section for you to input your `.env` variables on the dashboard!
 
-    At this point, you’ve got a fully functional Gatsby website that anyone can access via Netlify. 
+    At this point, you’ve got a fully functional Gatsby website that anyone can access via Netlify.
 
     Any questions? Put an issue onto the repo and we'll sort it out!
 
@@ -158,46 +159,43 @@ A quick look at the top-level files and directories you'll see in this project.
    .
 1  ├── content/
 2  ├── node_modules/
-3  ├── public/
-4  ├── scripts/
-5  ├── src/
-6  ├── static/
-7  ├── .babelrc
-8  ├── .editorconfig
-9  ├── .gitignore
-10 ├── .prettierrc
-11 ├── gatsby-browser
-12 ├── gatsby-config.js
-13 ├── gatsby-node.js
-14 ├── gatsby-ssr
-15 ├── LICENSE
-16 ├── package-lock.json
-17 ├── package.json
-18 └── README.md
+3  ├── scripts/
+4  ├── src/
+5  ├── static/
+6  ├── .babelrc
+7  ├── .editorconfig
+8  ├── .gitignore
+9  ├── .prettierrc
+10 ├── gatsby-browser
+11 ├── gatsby-config.js
+12 ├── gatsby-node.js
+13 ├── gatsby-ssr
+14 ├── LICENSE
+15 ├── package-lock.json
+16 ├── package.json
+17 └── README.md
 ```
 
 1. **`content/`**: Mainly markdown files to create your blog posts! Make sure to have the required properties or else the posts won't render correctly.
 2. **`node_modules/`**: Location where [Node.js](https://nodejs.org/en/) packages are installed via [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/en/).
-3. **`public/`**: What is distributed to the viewing software so everyone can see your greatest creation!
-4. **`scripts/`**: Contains a script to create favicons! Instructions in the file itself.
-5. **`src/`**: All development usually occurs here. “src” is a convention for “source code”.
-6. **`static/`**: HTML dependencies.
-7. **`.babelrc`**: This file enables to write modern JavaScript that will be "transpiled" to widely-supported Javascript. Think of it as a language translator for all devices that will see your website.
-8. **`.editorconfig`**: [EditorConfig](https://editorconfig.org) helps developers define and maintain consistent coding styles between different developers and text editors.
-9. **`.gitignore`**: This file tells `.git` which files it should not track nor maintain a version history for. For instance, you shouldn't let anyone get your `.env` files. (These usually contain your API keys)
-10. **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/), a tool to help keep the formatting of your code consistent.
-11. **`gatsby-browser.js`**: Implements [certain APIs](https://www.gatsbyjs.org/docs/browser-apis/) that the file maintains that deals with client side rendering.
-12. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://next.gatsbyjs.org/docs/gatsby-config/) for more details).
-13. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://next.gatsbyjs.org/docs/node-apis/) (if any). These allow customizations of default Gatsby settings affecting pieces of the site build process.
-14. **`.gatsby-ssr.js`**: Implements [certain APIs](https://www.gatsbyjs.org/docs/ssr-apis/) that the file maintains that deals with server side rendering.
-15. **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
-16. **`package-lock.json`** This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. (You won’t change this file directly)
-17. **`package.json`**: A manifest file for [Node.js](https://nodejs.org/en/) projects, which includes metadata (the project’s name, author, package names, etc.). This manifest is how [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/en/) knows which packages to install for your project.
-18. **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
+3. **`scripts/`**: Contains a script to create favicons! Instructions in the file itself.
+4. **`src/`**: All development usually occurs here. “src” is a convention for “source code”.
+5. **`static/`**: HTML dependencies.
+6. **`.babelrc`**: This file enables to write modern JavaScript that will be "transpiled" to widely-supported Javascript. Think of it as a language translator for all devices that will see your website.
+7. **`.editorconfig`**: [EditorConfig](https://editorconfig.org) helps developers define and maintain consistent coding styles between different developers and text editors.
+8. **`.gitignore`**: This file tells `.git` which files it should not track nor maintain a version history for. For instance, you shouldn't let anyone get your `.env` files. (These usually contain your API keys)
+9. **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/), a tool to help keep the formatting of your code consistent.
+10. **`gatsby-browser.js`**: Implements [certain APIs](https://www.gatsbyjs.org/docs/browser-apis/) that the file maintains that deals with client side rendering.
+11. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://next.gatsbyjs.org/docs/gatsby-config/) for more details).
+12. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://next.gatsbyjs.org/docs/node-apis/) (if any). These allow customizations of default Gatsby settings affecting pieces of the site build process.
+13. **`.gatsby-ssr.js`**: Implements [certain APIs](https://www.gatsbyjs.org/docs/ssr-apis/) that the file maintains that deals with server side rendering.
+14. **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
+15. **`package-lock.json`** This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. (You won’t change this file directly)
+16. **`package.json`**: A manifest file for [Node.js](https://nodejs.org/en/) projects, which includes metadata (the project’s name, author, package names, etc.). This manifest is how [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/en/) knows which packages to install for your project.
+17. **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
 
 <!-- LICENSE -->
 
 ## <span role="img" aria-label="Oncoming Police Car">🚔</span> [License](LICENSE)
 
 The code in this project is under a specific open source license.
-
