@@ -106,4 +106,4 @@ If the file is not less then 10 MB, you'll have to link it from your repo or sho
 Distribute your ".gif"ts to the world!
 
 <!-- Putting in markdown did not contain the .gif, so using HTML instead -->
-<img src="./VeryCool.gif" alt="VeryCool" width="100%" height="100%">
+<img src="https://user-images.githubusercontent.com/10361542/50407189-140ebb80-0787-11e9-93ee-7df86de30dd9.gif" alt="VeryCool" width="100%" height="100%">
