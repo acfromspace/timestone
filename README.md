@@ -15,20 +15,17 @@
   Created with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a> in order to showcase my development learnings.
 </p>
 
-<!-- INFORMATION (Shields:IO) -->
+<!-- BADGES -->
 
 <p align="center">
     <a href="https://github.com/acfromspace/timestone/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
             alt="License: MIT"></a>
-    <img src="https://img.shields.io/badge/location-compromised%20by%20Thanos-red.svg"
-            alt="Location: Compromised by Thanos">
-    <a href="https://twitter.com/intent/follow?screen_name=acfromspace">
-        <img src="https://img.shields.io/twitter/follow/acfromspace.svg?style=social&logo=twitter"
-            alt="Follow @acfromspace"></a>
+    <a href="https://www.repostatus.org/#unsupported">
+        <img src="https://www.repostatus.org/badges/latest/unsupported.svg" alt="Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired." /></a>
 </p>
 
-<!-- FEATURES (Gif goes right below) -->
+<!-- FEATURES -->
 
 <p align="center">
   <img src="file:///C:/Users/EVADELEON/Desktop/timestone/static/demo.gif">
