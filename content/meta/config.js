@@ -10,7 +10,7 @@ module.exports = {
   siteLanguage: "en", // English
   // author
   authorName: "AC De Leon",
-  authorTwitterAccount: "acfromspace",
+  authorTwitterAccount: "",
   // Side important info goes here
   infoTitle: "acfromspace",
   infoTitleNote: "Development Blog",
@@ -22,11 +22,11 @@ module.exports = {
   manifestThemeColor: colors.background,
   manifestDisplay: "",
   // contact
-  contactEmail: "aadeleon@sdsu.edu",
+  contactEmail: "acfromspace.deleon@gmail.com",
   // social
   authorSocialLinks: [
     // { name: "github", url: "https://github.com/acfromspace" },
-    // { name: "twitter", url: "https://twitter.com/acfromspace" },
+    // { name: "twitter", url: "N/A" },
     // { name: "facebook", url: "N/A" },
     { name: "home", url: "https://spacestone.netlify.com" },
   ]
