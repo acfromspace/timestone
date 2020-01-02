@@ -1,7 +1,7 @@
 {
   "name": "timestone",
   "description": "Personal portal to realms of the cosmos",
-  "author": "AC De Leon <aadeleon@sdsu.edu>",
+  "author": "AC De Leon",
   "repository": "https://github.com/acfromspace/timestone",
   "version": "1.0.0",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.10.0",
     "prettier": "^1.13.7",
-    "sharp-cli": "^1.7.0",
+    "sharp-cli": "^1.13.1",
     "webpack-bundle-analyzer": "^3.3.2"
   },
   "dependencies": {
