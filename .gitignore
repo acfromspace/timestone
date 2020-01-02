@@ -61,6 +61,7 @@ typings/
 
 .cache/
 .DS_Store
+public/
 yarn-error.log
 
 # editors
