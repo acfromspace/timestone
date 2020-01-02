@@ -172,7 +172,7 @@ A quick look at the top-level files and directories you'll see in this project.
 1. **`content/`**: Mainly markdown files to create your blog posts! Make sure to have the required properties or else the posts won't render correctly.
 2. **`node_modules/`**: Location where [Node.js](https://nodejs.org/en/) packages are installed via [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/en/).
 3. **`scripts/`**: Contains a script to create favicons! Instructions in the file itself.
-4. **`src/`**: All development usually occurs here. “src” is a convention for “source code”.
+4. **`src/`**: All development usually occurs here. `src` is a convention for “source code”.
 5. **`static/`**: HTML dependencies.
 6. **`.babelrc`**: This file enables to write modern JavaScript that will be "transpiled" to widely-supported Javascript. Think of it as a language translator for all devices that will see your website.
 7. **`.editorconfig`**: [EditorConfig](https://editorconfig.org) helps developers define and maintain consistent coding styles between different developers and text editors.
