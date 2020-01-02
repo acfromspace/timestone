@@ -31,7 +31,7 @@
   <img src="https://user-images.githubusercontent.com/10361542/71686144-326ea600-2d4f-11ea-9718-9560bd986964.png">
 </p>
 
-[_timestone_](https://timestone.netlify.com) is a blog website with the following features:
+[_timestone_](https://timestone.netlify.com) is a website with the following features:
 
 - **Blazing fast loading thanks to [Gatsby](https://www.gatsbyjs.org/).** Get all the benefits of static websites with none of the limitations. Gatsby sites are fully functional React apps, so you can create high-quality, dynamic web apps, from blogs to ecommerce sites to user dashboards.
 
